@@ -19,6 +19,7 @@
         <maven.surefire.plugin.version>2.9</maven.surefire.plugin.version>
         
         <sa_jdi.version>1.7</sa_jdi.version> 
+        <tools.version>1.6.2</tools.version>
 
     </properties>
   
@@ -62,6 +63,11 @@
             <groupId>com.sun.tools</groupId>
             <artifactId>sa_jdi</artifactId>
             <version>${sa_jdi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>${tools.version}</version>
         </dependency>
 	</dependencies>
     
